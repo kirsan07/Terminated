@@ -5,6 +5,6 @@ public class Class {
         Thread thread2 = new Thread();
         Thread thread3 = new Thread();
         Thread[] threads = {thread0, thread1, thread2, thread3};
-        thread0.start();
+        ThreadUtil.printNameOfTerminatedThread(threads);
     }
 }
